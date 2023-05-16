@@ -1,8 +1,12 @@
-# The following changes were done to successfully compile with torch 1.12, torchvision 1.14, cuda 11.6.2, ninja 1.8.2
+# A version for Pytorch 1.12.0
+## The following changes were done to successfully compile with torch 1.12, torchvision 1.14, cuda 11.6.2, ninja 1.8.2
 1. /lib/model/csrc/cuda/nms.cu
 2. /lib/model/csrc/cuda/ROIAlign_cuda.cu
 3. /lib/model/csrc/cuda/ROIPool_cuda.cu
 
+## Add inference.py
+1. input image numpy narray, to change batch size, change args.bs
+2. output obj_dets, image_dets
 
 
 # Hand Object Detector 
