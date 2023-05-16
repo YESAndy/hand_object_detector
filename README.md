@@ -1,3 +1,10 @@
+# The following changes were done to successfully compile with torch 1.12, torchvision 1.14, cuda 11.6.2
+1. /lib/model/csrc/cuda/nms.cu
+2. /lib/model/csrc/cuda/ROIAlign_cuda.cu
+3. /lib/model/csrc/cuda/ROIPool_cuda.cu
+
+
+
 # Hand Object Detector 
 This is the code for our paper *Understanding Human Hands in Contact at Internet Scale* (CVPR 2020, **Oral**).
 
