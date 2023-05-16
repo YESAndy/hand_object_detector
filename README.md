@@ -6,7 +6,7 @@
 
 ## Add inference.py
 1. input image numpy narray, to change batch size, change args.bs
-2. output obj_dets, image_dets
+2. output obj_dets, hand_dets
 
 ## Add inference.ipynb for demo
 
