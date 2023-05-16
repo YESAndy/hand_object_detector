@@ -6,7 +6,7 @@
 
 ## Add inference.py
 1. input image numpy narray, to change batch size, change args.bs
-2. output obj_dets, hand_dets
+2. output obj_dets, hand_dets (COCO format: (x-top left, y-top left, width, height))
 
 ## Add inference.ipynb for demo
 
